@@ -8,7 +8,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 
-var app = express();
+var app = express(); 
 
 app.locals.pluralize = require('pluralize');
 
